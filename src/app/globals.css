@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@source not "../../*.md";
+
+@theme {
+  --color-page: #fafafa;
+  --color-ink: #4d4f62;
+}
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+}
+
+@layer base {
+  body {
+    @apply bg-page font-sans text-ink;
+  }
+  a {
+    @apply v-focus-ring;
+  }
+}
+
+@utility v-focus-ring {
+  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-current;
+}
+
+@utility v-credit-link {
+  @apply underline underline-offset-2 hover:no-underline;
+}

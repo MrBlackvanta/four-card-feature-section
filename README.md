@@ -1,37 +1,41 @@
-# Frontend Mentor - Four card feature section
+# Frontend Mentor - Four card feature section solution
 
-![Design preview for the Four card feature section coding challenge](desktop-preview.jpg)
-
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Design deviations](#design-deviations)
 - [Author](#author)
 
 ## Overview
 
-### The challenge
+### Screenshot
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
+![](./screenshot.webp)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MrBlackvanta/Four-card-feature-section)
-- Live Site URL: [Live](https://four-card-section-vanta.netlify.app/)
+- Solution URL: [GitHub](https://github.com/MrBlackvanta/Four-card-feature-section)
+- Live Site URL: [Cloudflare](https://four-card-feature-section.abdelrhman-ahmed8881.workers.dev)
+
+## My process
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library
-- [Sass Modules](https://sass-lang.com/) - For styles
+- [Next.js 16](https://nextjs.org/) (App Router, React Compiler, Turbopack)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/) (strict)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+
+### Design deviations
 
 ## Author
 
+- UpWork - [Abdelrhman Abdelaal](https://upwork.com/freelancers/~01f0a9479696b61f49)
 - Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
-- GitHub - [@MrBlackvanta](https://github.com/MrBlackvanta)
+- LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)

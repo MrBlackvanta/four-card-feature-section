@@ -1,0 +1,6 @@
+{
+  "name": "four-card-feature-section",
+  "compatibility_date": "2026-08-23",
+  "workers_dev": true,
+  "assets": { "directory": "./out", "not_found_handling": "404-page" }
+}
