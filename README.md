@@ -95,6 +95,15 @@ further from the design than wide gutters are.
 not a chosen value — it is `(1440 − 1114) / 2`, the horizontal gutter that falls out of
 centring the card wrapper, with the frame height sized to the designer's screen.
 
+**The attribution is pinned out of flow, so it costs no layout height.** It is not part of
+the design, and in flow its ~23px pushed the document past `100dvh` and put a pointless
+scrollbar on any screen shorter than 991px. Absolutely positioned against `<body>`, the
+document height now equals the page's own content at every width and the scroll threshold is
+969px — the design's own height. The mobile bottom padding is 80px rather than the 56px the
+top uses, to leave the two-line attribution clearance now that it no longer pushes anything
+down; mobile scrolls at every viewport anyway, so that costs nothing, and the one-screen
+breakpoints keep the design's own padding.
+
 **The mobile gutter is 30px, because the design disagrees with itself.** Its title block is
 316px wide and its card wrapper 314px. 30px splits the difference: the cards land exactly and
 the title block comes out 1px narrow.

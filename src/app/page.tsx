@@ -12,7 +12,7 @@ const PLACEMENT = [
 export default function Page() {
   return (
     <>
-      <main className="flex-1 px-7.5 py-14 md:py-20 lg:py-25.5">
+      <main className="flex-1 px-7.5 pt-14 pb-20 md:pt-20 lg:py-25.5">
         <div className="mx-auto max-w-79 text-center md:max-w-135">
           <h1 className="text-heading tracking-heading md:text-heading-lg">
             <span className="block font-extralight">
@@ -34,7 +34,7 @@ export default function Page() {
           ))}
         </ul>
       </main>
-      <footer>
+      <footer className="absolute inset-x-0 bottom-0">
         <Attribution />
       </footer>
     </>
