@@ -8,7 +8,7 @@ export default function Attribution() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Frontend Mentor
+        Frontend&nbsp;Mentor
       </a>
       . Coded by{" "}
       <a
@@ -17,7 +17,7 @@ export default function Attribution() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Abdelrhman Abdelaal
+        Abdelrhman&nbsp;Abdelaal
       </a>
       .
     </p>
