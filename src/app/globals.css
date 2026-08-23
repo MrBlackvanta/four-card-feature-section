@@ -3,7 +3,28 @@
 
 @theme {
   --color-page: #fafafa;
-  --color-ink: #4d4f62;
+  --color-grey-500: #4d4f62;
+  --color-grey-400: #6a7178;
+  --color-accent-cyan: #44d3d2;
+  --color-accent-red: #ea5454;
+  --color-accent-orange: #fcae4a;
+  --color-accent-blue: #549ef2;
+
+  --text-heading: 1.5rem;
+  --text-heading--line-height: 1.4;
+  --text-heading-lg: 2.25rem;
+  --text-heading-lg--line-height: 1.4;
+  --text-title: 1.25rem;
+  --text-title--line-height: 1.35;
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.4;
+  --text-body-sm: 0.8125rem;
+  --text-body-sm--line-height: 1.6;
+
+  --tracking-heading: 0.25px;
+  --tracking-body: 0.00694em;
+
+  --shadow-card: 0 0.9375rem 1.875rem -0.6875rem rgb(131 166 210 / 0.5);
 }
 
 @theme inline {
@@ -12,7 +33,7 @@
 
 @layer base {
   body {
-    @apply bg-page font-sans text-ink;
+    @apply bg-page font-sans text-body tracking-body text-grey-500;
   }
   a {
     @apply v-focus-ring;
@@ -20,7 +41,7 @@
 }
 
 @utility v-focus-ring {
-  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-current;
+  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-grey-500;
 }
 
 @utility v-credit-link {

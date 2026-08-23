@@ -1,6 +1,6 @@
 export default function Attribution() {
   return (
-    <p className="pb-0.5 text-center text-xs">
+    <p className="pb-0.5 text-center text-body-sm text-grey-400">
       Challenge by{" "}
       <a
         className="v-credit-link"
